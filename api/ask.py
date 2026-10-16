@@ -24,7 +24,6 @@ def get_student_records(field):
         "age",
         "grade",
         "enrollment_date",
-        "active",
         "skill"
     ]
 
