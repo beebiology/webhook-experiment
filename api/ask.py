@@ -80,6 +80,7 @@ def ask_agent():
         "explain what you could not determine."
         "do not use * marks"
         "After you answer the question, present each student and their data in this format of a sentence like this: STUDENT is AGE years old. He is in grade GRADE and has a SKILL skill level."
+        "Guess if names are female or male to decide the pronouns you use."
     )
 
     response = client.responses.create(
