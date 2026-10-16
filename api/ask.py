@@ -74,8 +74,7 @@ tools = [
 # Run the AI agent
 def ask_agent():
     question = (
-        "Which student is the youngest, "
-        "and who enrolled the longest?"
+        "Tell me which student is the youngest. Then give me a nice table with all the rest of the data."
     )
 
     instructions = (
