@@ -74,7 +74,7 @@ tools = [
 # Run the AI agent
 def ask_agent():
     question = (
-        "Tell me which student is the youngest. Then give me a nice table with all the rest of the data."
+        "Tell me which student is the youngest. Then give me all the rest of the students and their data."
     )
 
     instructions = (
@@ -82,6 +82,7 @@ def ask_agent():
         "information. Answer only using verified "
         "student records. If data is unavailable, "
         "explain what you could not determine."
+        "do not use * marks"
     )
 
     response = client.responses.create(
