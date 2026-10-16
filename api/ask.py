@@ -70,7 +70,7 @@ tools = [
 # Run the AI agent
 def ask_agent():
     question = (
-        "Tell me which student is the youngest. Then give me all the rest of the students and their data."
+        "Tell me which student is the youngest."
     )
 
     instructions = (
