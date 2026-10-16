@@ -58,7 +58,6 @@ tools = [
                         "age",
                         "grade",
                         "enrollment_date",
-                        "active",
                         "skill"
                     ]
                 }
