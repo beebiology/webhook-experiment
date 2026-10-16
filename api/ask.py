@@ -79,7 +79,7 @@ def ask_agent():
         "student records. If data is unavailable, "
         "explain what you could not determine."
         "do not use * marks"
-        "After you answer the question, present one joined paragraph with each student and their data in this format of sentences like this: STUDENT is AGE years old. He is in grade GRADE and has a SKILL skill level."
+        "After you answer the question, present one joined paragraph with each student in this format of sentences like this: STUDENT is AGE years old and has a SKILL skill level."
         "Guess if names are female or male to decide the pronouns you use."
     )
 
