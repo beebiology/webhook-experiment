@@ -76,6 +76,29 @@
                 button.disabled = false;
             }
         });
+
+
+async function loadStudentCount() {
+    try {
+        const response = await fetch("/api/student_count");
+
+        if (!response.ok) {
+            throw new Error("Could not retrieve student count");
+        }
+
+        const data = await response.json();
+
+        button.textContent =
+            `Which of the ${data.count} students is the youngest?`;
+
+    } catch (error) {
+        button.textContent = "Ask AI";
+        console.error(error);
+    }
+}
+
+loadStudentCount();
+
     </script>
 
 </body>
